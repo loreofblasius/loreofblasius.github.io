@@ -2,6 +2,7 @@
 
 h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
+    color: #3B78AD;
 }
 .icon-block {
   padding: 0 15px;
@@ -64,4 +65,20 @@ h1.page-title {
 }
 p.rss-subscribe {
     margin: 0;
+}
+
+// EKT specific styles
+
+.ekt-nav {
+  background-color: rgba(0,0,0,0);
+  box-shadow: none;
+  height: 140px;
+}
+
+.ekt-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+  box-shadow: none;
 }
